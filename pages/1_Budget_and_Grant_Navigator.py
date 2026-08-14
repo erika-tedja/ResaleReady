@@ -52,7 +52,7 @@ st.markdown("#### Tell us about your situation")
 st.caption("None of this is personally identifiable, and nothing is stored "
            "after you close the browser tab.")
 
-with st.form("profile"):
+with st.form("profile_form"):
     c1, c2, c3 = st.columns(3)
 
     with c1:
